@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Android / Gradle
+**/.gradle/
+**/build/
+**/local.properties
+
+# IDE
+**/.idea/
+**/*.iml
+
+# Kotlin
+**/.kotlin/

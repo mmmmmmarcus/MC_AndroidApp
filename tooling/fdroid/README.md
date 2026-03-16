@@ -30,3 +30,18 @@
 
 首个试点项目：
 - `god-mode/`
+
+## Current process entrypoints
+
+### `publish-god-mode.sh`
+把 `god-mode` 发布到自建 F-Droid repo 的当前标准脚本。
+
+覆盖流程：
+- 构建 release APK
+- 用稳定 app key 进行签名
+- 更新 `MC_AndroidApp_FDroid` 中的 repo index
+- 推送到 GitHub Pages 背后的仓库
+
+适合场景：
+- 发布 `god-mode` 新版本
+- 刷新 F-Droid / Neo Store 更新源

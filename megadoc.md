@@ -49,6 +49,16 @@
 
 ---
 
+### `tooling/fdroid/README.md`
+**F-Droid 工具层索引。**
+
+适合用来回答：
+- 当前有哪些 F-Droid 工具脚本
+- 哪个脚本是当前标准发布入口
+- 源码仓侧和发布仓侧的工具边界是什么
+
+---
+
 ## Recommended Reading Order
 
 ### 场景 1：第一次接触这个仓库
@@ -65,6 +75,11 @@
 1. `megadoc.md`
 2. `fdroid-repo-plan.md`
 3. `tooling/fdroid/README.md`
+
+### 场景 4：要直接调用既有发布流程
+1. `megadoc.md`
+2. `tooling/fdroid/README.md`
+3. 执行 `tooling/fdroid/publish-god-mode.sh`
 
 ---
 
@@ -122,6 +137,11 @@
 - `megadoc.md`
 - `new projectwizard.md`
 - `fdroid-repo-plan.md`
+- `tooling/fdroid/README.md`
+
+当前已落地的可调用 process：
+
+- `tooling/fdroid/publish-god-mode.sh` — 发布 God Mode 到自建 F-Droid repo 并推送到 GitHub Pages
 
 如果未来根目录文档继续增长，建议把这份索引持续维护，确保它始终是“总导航页”。
 
